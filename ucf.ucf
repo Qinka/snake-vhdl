@@ -1,0 +1,19 @@
+#
+# Pin assignments for the Nexys3 Board.
+#
+net reset loc=B8; # Push-Button BTNS
+net clk loc=V10; # 100 MHz board clock
+net main_vsync loc=P7; # VGA-VSYNC
+net main_hsync loc=N6; # VGA-HSYNC
+net r<0> loc=U7; # VGA-RED0
+net r<1> loc=V7; # VGA-RED1
+net r<2> loc=N7; # VGA-RED2
+net g<0> loc=P8; # VGA-GRN0
+net g<1> loc=T6; # VGA-GRN1
+net g<2> loc=V6; # VGA-GRN2
+net b<0> loc=R7; # VGA-BLU1
+net b<1> loc=T7; # VGA-BLU2
+net left loc=C4; # BTNL (Push-Button Switch)
+net up loc=A8; # BTNU (Push-Button Switch)
+net down loc=C9; # BTND (Push-Button Switch)
+net right loc=D9; # BTNR (Push-Button Switch)
